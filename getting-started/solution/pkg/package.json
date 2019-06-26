@@ -1,0 +1,15 @@
+{
+  "name": "add",
+  "collaborators": [
+    "Ryan Levick <ryan.levick@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "add_bg.wasm",
+    "add.js",
+    "add.d.ts"
+  ],
+  "module": "add.js",
+  "types": "add.d.ts",
+  "sideEffects": "false"
+}

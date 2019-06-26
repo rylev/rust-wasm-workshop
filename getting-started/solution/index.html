@@ -1,0 +1,22 @@
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+</head>
+
+<body>
+  <script type="module">
+    // This is example is more or less straight from the
+    // wasm-bindgen guides:
+    //
+    // https://rustwasm.github.io/docs/wasm-bindgen/examples/without-a-bundler.html
+    import init, { add } from './pkg/add.js';
+
+    init().then(() => {
+      const result = add(1, 2);
+      console.log(`1 + 2 = ${result}`);
+    });
+  </script>
+</body>
+
+</html>
