@@ -13,3 +13,9 @@ Pretend you do not have access to lib-gameboy and create another crate that wrap
 ## Some Resources
 
 * The [wasm-bindgen documentation]() has great documentation on how to expose Rust structs, enums and modules to JavaScript in a way that looks idiomatic to the JavaScript.
+
+## Next Steps
+
+In the challenge we used a common pattern where we wrapped types from another library and exposed these wrapper types to JavaScript using wasm-bindgen. If we have access to the base library we may just want to directly expose our types to wasm-bindgen.
+
+Copy lib-gameboy and modifiy it such that it directly exposes its types to JavaScript without needing to be wrapped.

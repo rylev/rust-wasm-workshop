@@ -1,0 +1,15 @@
+{
+  "name": "rustdoku",
+  "collaborators": [
+    "Ryan Levick <ryan.levick@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "rustdoku_bg.wasm",
+    "rustdoku.js",
+    "rustdoku.d.ts"
+  ],
+  "module": "rustdoku.js",
+  "types": "rustdoku.d.ts",
+  "sideEffects": "false"
+}
