@@ -1,0 +1,42 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.input {
+    width: 70px;
+    height: 28px;
+    padding: 5px 10px;
+    margin: 5px;
+    outline: solid;
+    font-size: 0;
+    opacity: 0;
+    position: absolute
+}
+.input-label {
+  absolute
+}
+
+.button {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    width: 50px;
+    margin: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#screen {
+  outline: solid grey;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
