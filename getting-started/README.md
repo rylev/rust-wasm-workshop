@@ -75,4 +75,4 @@ If we access the `index.html` file through the web server, we'll finally see our
 1.) Try to remove as much code as possible from the generated index.js and keep the example working. See if you can explain why the piece of code you removed is safe to remove.
 2.) Look at the call to the WebAssembly binary - what does the call like? Do you notice anything interesting about what's done with the return value. Why might that be?
 3.) The wasm-pack tool helps us build our WebAssembly binary, the JavaScript glue code, and even TypeScript bindings. While convenient, we don't _need_ to use wasm-pack. Try to find out how to recreate a working example without using wasm-pack. Hint: you should only need the [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) cli tool installed.
-4.) Play with passing more complex types like Strings, custom structs, and references to such types to the function. Inspect the JavaScript and see if you can make sense of what's going on.
+4.) Play with passing more complex types like Strings, Vectors and references to such types to the function. Inspect the JavaScript and see if you can make sense of what's going on.
