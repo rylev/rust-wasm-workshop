@@ -1,0 +1,15 @@
+{
+  "name": "lib-gameboy-web",
+  "collaborators": [
+    "Ryan Levick <ryan.levick@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "lib_gameboy_web_bg.wasm",
+    "lib_gameboy_web.js",
+    "lib_gameboy_web.d.ts"
+  ],
+  "module": "lib_gameboy_web.js",
+  "types": "lib_gameboy_web.d.ts",
+  "sideEffects": "false"
+}
